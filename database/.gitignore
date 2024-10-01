@@ -1,0 +1,46 @@
+*.sqlite*
+/node_modules
+/npm-debug.log
+/yarn-error.log
+
+# Laravel specific
+/vendor
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/framework/*
+/storage/logs/*
+/storage/*.key
+
+# Ignore generated IDE helper files
+.phpstorm.meta.php
+/.phpunit.result.cache
+/_ide_helper.php
+/_ide_helper_models.php
+
+# Ignore environment files
+.env
+.env.*.backup
+.env.backup
+Homestead.yaml
+Homestead.json
+.vagrant
+.phpunit.result.cache
+
+# Ignore Composer and NPM lock files (optional, unless you want to commit lock files)
+# composer.lock
+# yarn.lock
+# package-lock.json
+
+# Ignore coverage reports
+/coverage
+
+# Ignore various cache and debug files
+/.vscode
+/idea
+/.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
